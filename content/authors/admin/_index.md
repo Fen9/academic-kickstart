@@ -1,6 +1,6 @@
 ---
 # Display name
-name: Nelson Bighetti
+name: Feng Gao
 
 # Username (this should match the folder name)
 authors:
@@ -10,32 +10,38 @@ authors:
 superuser: true
 
 # Role/position
-role: Professor of Artificial Intelligence
+role: Ph.D. student in Statistics
 
 # Organizations/Affiliations
 organizations:
-- name: Stanford University
-  url: ""
+- name: UCLA
+  url: "http://www.ucla.edu/"
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
+bio:
 
 interests:
-- Artificial Intelligence
-- Computational Linguistics
-- Information Retrieval
+  areas:
+  - area: Robotics
+    topics:
+    - Task and Motion Planning
+    - Imitation Learning
+  - area: Artificial Intelligence
+    topics:
+    - Stochastic Grammar
+    - Visual Analogy Reasoning
 
 education:
   courses:
-  - course: PhD in Artificial Intelligence
-    institution: Stanford University
-    year: 2012
-  - course: MEng in Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    year: 2009
-  - course: BSc in Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    year: 2008
+  - course: Ph.D. student in Statistics
+    institution: University of California, Los Angeles
+    year: 2017-now 
+  - course: M.S. in Computer Science
+    institution: University of Southern California
+    year: 2017
+  - course: B.Eng in Software Engineering
+    institution: Univeristy of Electronic Sci. and Tech. of China
+    year: 2015
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/page-builder/#icons
@@ -44,24 +50,24 @@ education:
 social:
 - icon: envelope
   icon_pack: fas
-  link: '#contact'  # For a direct email link, use "mailto:test@example.org".
-- icon: twitter
+  link: '#f.gao@ucla.edu'  # For a direct email link, use "mailto:test@example.org".
+- icon: instagram
   icon_pack: fab
-  link: https://twitter.com/GeorgeCushen
+  link: https://www.instagram.com/fen9ga0/
 - icon: google-scholar
   icon_pack: ai
-  link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
+  link: https://scholar.google.com/citations?user=amaLnocAAAAJ&hl=en
 - icon: github
   icon_pack: fab
-  link: https://github.com/gcushen
+  link: https://github.com/Fen9
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
-# - icon: cv
-#   icon_pack: ai
-#   link: files/cv.pdf
+- icon: id-card
+  icon_pack: fas
+  link: files/cv.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
-email: ""
+email: "f.gao@ucla.edu"
 
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
@@ -70,6 +76,6 @@ user_groups:
 - Visitors
 ---
 
-Nelson Bighetti is a professor of artificial intelligence at the Stanford AI Lab. His research interests include distributed robotics, mobile computing and programmable matter. He leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+I am a 3rd year Ph.D. student at UCLA, advised by [Dr.Song-Chun Zhu](http://www.stat.ucla.edu/~sczhu/) and affiliating with [VCLA lab](https://vcla.stat.ucla.edu/people.html). I study robotics and artificial intelligence, specifically focusing on robot learning, planning and reasoning. [CV](files/cv.pdf).
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.
+My current reseach is supported by [DARPA XAI](), [ONR MURI Scene Understanding]() and [DARPA SIMPLEX]().
